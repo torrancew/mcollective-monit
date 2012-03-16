@@ -11,6 +11,12 @@ Copy agent/monit.rb and agent/monit.ddl to $libdir/mcollective/agent/ and restar
 ### MCollective Clients
 Copy agent/monit.ddl and application/monit.rb to $libdir/mcollective/application/
 
+License
+-------
+The initial release was labeled as 0.1. This version is available as GPLv2 software, though subsequent releases will be released under the terms of the Apache License, version 2.0 to keep consistent with MCollective proper.
+
+All versions after 0.1 will follow Semantic Version standards. This trend starts with version 0.0.2.
+
 Contact
 -------
 Please submit any bug or feature requests as GitHub issues.
