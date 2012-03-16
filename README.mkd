@@ -1,0 +1,18 @@
+Monit Agent/Application for MCollective
+=======================================
+This project aims to provide a usable Monit agent and application for the Marionette Collective.
+
+Installation
+------------
+
+### MCollective Nodes
+Copy agent/monit.rb and agent/monit.ddl to $libdir/mcollective/agent/ and restart mcollectived
+
+### MCollective Clients
+Copy agent/monit.ddl and application/monit.rb to $libdir/mcollective/application/
+
+Contact
+-------
+Please submit any bug or feature requests as GitHub issues.
+
+All other contact can be directed via GitHub messages or to torrancew on IRC (Freenode, EFNet)
