@@ -2,8 +2,8 @@ metadata :name        => 'Monit Agent',
          :description => 'Monit interaction for MCollective',
          :url         => 'https://github.com/torrancew/mcollective-monit',
          :author      => 'Tray Torrance',
-         :license     => 'GPLv2',
-         :version     => '0.1',
+         :license     => 'Apache License, Version 2.0',
+         :version     => '0.0.2',
          :timeout     => 5
 
 action 'monitor', :description => 'Enable monitoring of a specific service' do
